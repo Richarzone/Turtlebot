@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<launch>
+    <include file = "$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name = "world_name" value = "$(find turtlebot_urdf)/confing/turtlebot_project.world"/>
+        <arg name = "paused" default = "false" />
+        <arg name = "use_sim_time" default = "true" />
+        <arg name = "headless" default = "false" />
+        <arg name = "debug" default = "false" />
+    </include>
+
+    <include file = "$(find turtlebot_urdf)/launch/spawn_cubes.launch" />
+    <include file = "$(find turtlebot_urdf)/launch/spawn_turtlebot.launch" />
+
+</launch>

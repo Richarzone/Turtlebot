@@ -1,0 +1,101 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<launch>
+    <group ns="Red_Cube1">
+        <include file = "$(find turtlebot_urdf)/launch/spawn_cube.launch">
+            <arg name = "robot_name" value = "Red_Cube1" />
+            <arg name = "x" value = "35.0" />
+            <arg name = "y" value = "18.0" />
+            <arg name = "z" value = "0.0" />
+            <arg name = "roll" value = "0" />
+            <arg name = "pitch" value = "0" />
+            <arg name = "yaw" value = "0" />
+            <arg name = "color" value = "red" />
+            <arg name = "urdf_robot_file" value = "$(find turtlebot_urdf)/urdf/red_cube.urdf"/>
+        </include>
+    </group>
+
+    <group ns="Red_Cube2">
+        <include file = "$(find turtlebot_urdf)/launch/spawn_cube.launch">
+            <arg name = "robot_name" value = "Red_Cube2" />
+            <arg name = "x" value = "-13.0" />
+            <arg name = "y" value = "8.6" />
+            <arg name = "z" value = "0.0" />
+            <arg name = "roll" value = "0" />
+            <arg name = "pitch" value = "0" />
+            <arg name = "yaw" value = "0" />
+            <arg name = "color" value = "red" />
+            <arg name = "urdf_robot_file" value = "$(find turtlebot_urdf)/urdf/red_cube.urdf"/>
+        </include>
+    </group>
+
+    <group ns="Red_Cube3">
+        <include file = "$(find turtlebot_urdf)/launch/spawn_cube.launch">
+            <arg name = "robot_name" value = "Red_Cube3" />
+            <arg name = "x" value = "22.0" />
+            <arg name = "y" value = "1.0" />
+            <arg name = "z" value = "0.0" />
+            <arg name = "roll" value = "0" />
+            <arg name = "pitch" value = "0" />
+            <arg name = "yaw" value = "0" />
+            <arg name = "color" value = "red" />
+            <arg name = "urdf_robot_file" value = "$(find turtlebot_urdf)/urdf/red_cube.urdf"/>
+        </include>
+    </group>
+
+    <group ns="Green_Cube1">
+        <include file = "$(find turtlebot_urdf)/launch/spawn_cube.launch">
+            <arg name = "robot_name" value = "Green_Cube1" />
+            <arg name = "x" value = "1.8" />
+            <arg name = "y" value = "15.0" />
+            <arg name = "z" value = "0.0" />
+            <arg name = "roll" value = "0" />
+            <arg name = "pitch" value = "0" />
+            <arg name = "yaw" value = "0" />
+            <arg name = "color" value = "green" />
+            <arg name = "urdf_robot_file" value = "$(find turtlebot_urdf)/urdf/green_cube.urdf"/>
+        </include>
+    </group>
+
+
+    <group ns="Green_Cube2">
+        <include file = "$(find turtlebot_urdf)/launch/spawn_cube.launch">
+            <arg name = "robot_name" value = "Green_Cube2" />
+            <arg name = "x" value = "31.7" />
+            <arg name = "y" value = "23.5" />
+            <arg name = "z" value = "0.0" />
+            <arg name = "roll" value = "0" />
+            <arg name = "pitch" value = "0" />
+            <arg name = "yaw" value = "0" />
+            <arg name = "color" value = "green" />
+            <arg name = "urdf_robot_file" value = "$(find turtlebot_urdf)/urdf/green_cube.urdf"/>
+        </include>
+    </group>
+
+    <group ns="Green_Cube3">
+        <include file = "$(find turtlebot_urdf)/launch/spawn_cube.launch">
+            <arg name = "robot_name" value = "Green_Cube3" />
+            <arg name = "x" value = "25.5" />
+            <arg name = "y" value = "0.5" />
+            <arg name = "z" value = "0.0" />
+            <arg name = "roll" value = "0" />
+            <arg name = "pitch" value = "0" />
+            <arg name = "yaw" value = "0" />
+            <arg name = "color" value = "green" />
+            <arg name = "urdf_robot_file" value = "$(find turtlebot_urdf)/urdf/green_cube.urdf"/>
+        </include>
+    </group>
+
+    <group ns="Green_Cube4">
+        <include file = "$(find turtlebot_urdf)/launch/spawn_cube.launch">
+            <arg name = "robot_name" value = "Green_Cube4" />
+            <arg name = "x" value = "27.0" />
+            <arg name = "y" value = "-17.0" />
+            <arg name = "z" value = "0.0" />
+            <arg name = "roll" value = "0" />
+            <arg name = "pitch" value = "0" />
+            <arg name = "yaw" value = "0" />
+            <arg name = "color" value = "green" />
+            <arg name = "urdf_robot_file" value = "$(find turtlebot_urdf)/urdf/green_cube.urdf"/>
+        </include>
+    </group>
+</launch>
